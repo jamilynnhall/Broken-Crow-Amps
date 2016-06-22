@@ -2501,7 +2501,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -3336,7 +3336,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -6643,27 +6643,29 @@ table.hover tr:nth-of-type(even):hover {
   color: #B9B9B9; }
 
 /* Tablet and desktop menu */
+.top-bar .top-bar-right {
+  float: left;
+  padding-left: 220px; }
+
 .top-bar .menu .home a {
   font-size: 1rem;
   color: #B9B9B9; }
 
 .top-bar .menu a {
-  height: 45px;
-  line-height: 45px;
+  height: 80px;
+  line-height: 50px;
   color: #e6e6e6;
-  padding-top: 0;
-  padding-bottom: 0;
-  font-weight: bold;
   font-size: 0.8rem;
-  line-height: 1; }
-  .top-bar .menu a:hover:not(.button) {
-    background-color: #2a2a2a; }
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s; }
+  .top-bar .menu a:hover {
+    color: #c73925; }
 
 .top-bar .menu > li:not(.menu-text) > a {
-  padding: 1rem; }
-
-.top-bar .menu li:not(:last-child) {
-  border-right: 1px solid #4e4e4e; }
+  padding: 1rem 2rem; }
 
 .top-bar .dropdown.menu .submenu {
   background-color: #121212;
@@ -6725,22 +6727,32 @@ a::after {
 .nav-next {
   float: right; }
 
+.custom-logo-link {
+  padding-left: 0 !important; }
+
+.custom-logo {
+  height: 55px;
+  width: auto; }
+
 #footer-container {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;
-  border-top: 1px solid #ccc;
-  margin-top: 3.75rem; }
+  background: #0a0a0a; }
   #footer-container #footer {
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.875rem 0; }
+    padding: 1.5rem 0; }
     #footer-container #footer::before, #footer-container #footer::after {
       content: ' ';
       display: table; }
     #footer-container #footer::after {
       clear: both; }
+    #footer-container #footer p {
+      margin-bottom: 0;
+      color: #fefefe;
+      text-align: center; }
     #footer-container #footer ul {
       list-style-type: none;
       margin: 0;
@@ -6813,9 +6825,117 @@ body#tinymce {
 [data-whatinput="mouse"] a:focus, button:focus [data-whatinput="touch"] a:focus, button:focus {
   outline: none; }
 
-.home-hero {
-  background: grey;
-  height: 500px; }
+.home-hero figure {
+  margin: 0; }
+  .home-hero figure figcaption h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5.3125rem;
+    margin: 0;
+    position: absolute;
+    top: 530px;
+    left: 120px;
+    right: 0; }
+    .home-hero figure figcaption h1 span {
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold; }
+
+.insta-feed {
+  padding: 50px 0;
+  min-height: 330px; }
+  .insta-feed .insta-logo {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    display: block; }
+  .insta-feed h4 {
+    text-align: center;
+    font-size: 1.25rem; }
+    .insta-feed h4 a {
+      color: #8a8a8a; }
+  .insta-feed .instagram-feed {
+    display: block;
+    margin: 0 auto; }
+
+.newsletter-signup {
+  background: url(../images/amptexture.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .newsletter-signup .newsletter-form {
+    padding: 37px 0 30px 0; }
+    .newsletter-signup .newsletter-form .gform_heading, .newsletter-signup .newsletter-form .gform_body, .newsletter-signup .newsletter-form .gform_footer {
+      display: inline-block; }
+    .newsletter-signup .newsletter-form .gform_heading h3 {
+      color: #fefefe;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0; }
+    .newsletter-signup .newsletter-form .gform_body input[type=email] {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      width: 290px;
+      margin: 0; }
+    .newsletter-signup .newsletter-form .gform_body ul {
+      list-style: none;
+      margin-bottom: 0; }
+    .newsletter-signup .newsletter-form .gform_footer input[type=submit] {
+      background: #0a0a0a;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-top: 13px;
+      margin-left: -0.25406rem;
+      padding: 0.71875rem 0.75rem; }
+      .newsletter-signup .newsletter-form .gform_footer input[type=submit]:hover {
+        background: #8a8a8a; }
+  .newsletter-signup .newsletter-description {
+    padding: 55px 0; }
+    .newsletter-signup .newsletter-description h3 {
+      color: #fefefe;
+      font-size: 1.125rem;
+      margin: 0; }
+
+.amps-main {
+  padding: 80px 0 120px 0; }
+  .amps-main h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-left: 6px; }
+  .amps-main .amp-lg {
+    padding-left: 6px; }
+    .amps-main .amp-lg .image-container {
+      position: relative;
+      display: inline-block; }
+    .amps-main .amp-lg img {
+      height: auto;
+      width: 588px; }
+    .amps-main .amp-lg .overlay {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+      opacity: 0;
+      background: rgba(0, 0, 0, 0.7);
+      -webkit-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      .amps-main .amp-lg .overlay img {
+        height: 120px;
+        width: 89px;
+        position: absolute;
+        top: 40%;
+        left: 45%; }
+    .amps-main .amp-lg .image-container:hover .overlay {
+      visibility: visible;
+      opacity: 1; }
 
 #page {
   max-width: 75rem;

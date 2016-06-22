@@ -44,8 +44,9 @@
 
 // 1. Global
 // ---------
-$mont: 'Montserrat', sans-serif;;
-$sans: 'Open Sans Condensed', sans-serif;;
+$mont: 'Montserrat', sans-serif;
+$sans: 'PT Sans', sans-serif;
+$rob: 'Roboto Condensed', sans-serif;
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -61,6 +62,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$red: #c73925;
+$oblack: rgba(0,0,0,.7);
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: $sans;

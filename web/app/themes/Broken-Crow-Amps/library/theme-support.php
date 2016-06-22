@@ -40,6 +40,14 @@ function foundationpress_theme_support() {
 
 	// Add foundation.css as editor style https://codex.wordpress.org/Editor_Style
 	add_editor_style( 'assets/stylesheets/foundation.css' );
+
+	//Declare Custom Logo Support
+	add_theme_support( 'custom-logo' );
+
+	//Add Theme Options Page for ACF
+	if( function_exists('acf_add_options_page') ) {
+		acf_add_options_page();
+	}
 }
 
 add_action( 'after_setup_theme', 'foundationpress_theme_support' );

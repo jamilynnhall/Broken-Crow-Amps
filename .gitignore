@@ -1,6 +1,8 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/gravityforms
+!web/app/plugins/gravityformsmailchimp
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/uploads/*
@@ -26,6 +28,7 @@ vendor/*
 
 # Node Package Manager
 node_modules
+/web/app/themes/npm-debug.log
 
 # Vagrant
 bin
