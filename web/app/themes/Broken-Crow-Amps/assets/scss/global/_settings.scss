@@ -45,8 +45,7 @@
 // 1. Global
 // ---------
 $mont: 'Montserrat', sans-serif;
-$sans: 'PT Sans', sans-serif;
-$rob: 'Roboto Condensed', sans-serif;
+$sans: 'Open Sans', sans-serif;
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -63,7 +62,9 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $red: #c73925;
-$oblack: rgba(0,0,0,.7);
+$putty: #cecece;
+$oblack: rgba(0,0,0,0.7);
+$ogray: rgba(154,154,154,0.75);
 $body-background: $white;
 $body-font-color: $black;
 $body-font-family: $sans;
@@ -73,6 +74,7 @@ $global-padding: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
+$global-transition: all ease 0.3s;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;

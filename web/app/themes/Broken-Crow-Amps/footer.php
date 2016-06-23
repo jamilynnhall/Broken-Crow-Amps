@@ -11,6 +11,8 @@
 ?>
 
 		</section>
+			
+		<div id="footer-container">
 		<section class="newsletter-signup">
 				<div class="row">
 					<div class="newsletter-form small-12 large-6 columns">
@@ -21,7 +23,6 @@
 					</div>
 				</div>
 			</section>
-		<div id="footer-container">
 			<footer id="footer">
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 					<p>&copy; 2016 Broken Crow Amplification | <?php the_field('footer_email_address', 'option'); ?> | <?php the_field('footer_phone_number', 'option'); ?></p>

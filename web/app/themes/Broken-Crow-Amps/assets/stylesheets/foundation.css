@@ -2501,7 +2501,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -3336,7 +3336,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -6758,6 +6758,48 @@ a::after {
       margin: 0;
       padding: 0; }
 
+.newsletter-signup {
+  background: url(../images/amptexture.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .newsletter-signup .newsletter-form {
+    padding: 37px 0 30px 0; }
+    .newsletter-signup .newsletter-form .gform_heading, .newsletter-signup .newsletter-form .gform_body, .newsletter-signup .newsletter-form .gform_footer {
+      display: inline-block; }
+    .newsletter-signup .newsletter-form .gform_heading h3 {
+      color: #fefefe;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0; }
+    .newsletter-signup .newsletter-form .gform_body input[type=email] {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      width: 290px;
+      margin: 0; }
+    .newsletter-signup .newsletter-form .gform_body ul {
+      list-style: none;
+      margin-bottom: 0; }
+    .newsletter-signup .newsletter-form .gform_footer input[type=submit] {
+      background: #0a0a0a;
+      font-family: "Montserrat", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-top: 13px;
+      margin-left: -0.25406rem;
+      padding: 0.71875rem 0.75rem; }
+      .newsletter-signup .newsletter-form .gform_footer input[type=submit]:hover {
+        background: #8a8a8a; }
+  .newsletter-signup .newsletter-description {
+    padding: 55px 0; }
+    .newsletter-signup .newsletter-description h3 {
+      color: #fefefe;
+      font-size: 1.125rem;
+      margin: 0; }
+
 .sidebar {
   width: 100%;
   float: left;
@@ -6826,20 +6868,35 @@ body#tinymce {
   outline: none; }
 
 .home-hero figure {
-  margin: 0; }
-  .home-hero figure figcaption h1 {
+  margin: 0;
+  position: relative; }
+  .home-hero figure h1 {
     font-family: "Montserrat", sans-serif;
     text-align: center;
     text-transform: uppercase;
-    line-height: 5.3125rem;
+    line-height: 4.6875rem;
+    font-size: 2.625rem;
     margin: 0;
-    position: absolute;
-    top: 530px;
-    left: 120px;
-    right: 0; }
-    .home-hero figure figcaption h1 span {
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold; }
+    display: inline-block; }
+    .home-hero figure h1 a {
+      background: url(../images/tone-steel-bg.png) no-repeat center center;
+      -webkit-background-size: contain;
+              background-size: contain;
+      position: absolute;
+      top: 440px;
+      left: 120px;
+      right: 0;
+      margin: 0 auto;
+      padding: 0.3125rem 2.1875rem;
+      color: #0a0a0a;
+      -webkit-transition: all ease 0.3s;
+      transition: all ease 0.3s;
+      display: inline-block;
+      color: #fefefe; }
+      .home-hero figure h1 a span {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        color: #0a0a0a; }
 
 .insta-feed {
   padding: 50px 0;
@@ -6853,52 +6910,14 @@ body#tinymce {
     text-align: center;
     font-size: 1.25rem; }
     .insta-feed h4 a {
-      color: #8a8a8a; }
+      color: #8a8a8a;
+      -webkit-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      .insta-feed h4 a:hover {
+        color: #c73925; }
   .insta-feed .instagram-feed {
     display: block;
     margin: 0 auto; }
-
-.newsletter-signup {
-  background: url(../images/amptexture.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-          background-size: cover; }
-  .newsletter-signup .newsletter-form {
-    padding: 37px 0 30px 0; }
-    .newsletter-signup .newsletter-form .gform_heading, .newsletter-signup .newsletter-form .gform_body, .newsletter-signup .newsletter-form .gform_footer {
-      display: inline-block; }
-    .newsletter-signup .newsletter-form .gform_heading h3 {
-      color: #fefefe;
-      font-family: "Montserrat", sans-serif;
-      font-size: 1rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin: 0; }
-    .newsletter-signup .newsletter-form .gform_body input[type=email] {
-      border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px;
-      width: 290px;
-      margin: 0; }
-    .newsletter-signup .newsletter-form .gform_body ul {
-      list-style: none;
-      margin-bottom: 0; }
-    .newsletter-signup .newsletter-form .gform_footer input[type=submit] {
-      background: #0a0a0a;
-      font-family: "Montserrat", sans-serif;
-      font-weight: bold;
-      text-transform: uppercase;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px;
-      margin-top: 13px;
-      margin-left: -0.25406rem;
-      padding: 0.71875rem 0.75rem; }
-      .newsletter-signup .newsletter-form .gform_footer input[type=submit]:hover {
-        background: #8a8a8a; }
-  .newsletter-signup .newsletter-description {
-    padding: 55px 0; }
-    .newsletter-signup .newsletter-description h3 {
-      color: #fefefe;
-      font-size: 1.125rem;
-      margin: 0; }
 
 .amps-main {
   padding: 80px 0 120px 0; }
@@ -6916,6 +6935,19 @@ body#tinymce {
     .amps-main .amp-lg img {
       height: auto;
       width: 588px; }
+    .amps-main .amp-lg .amp-model-tag {
+      background: rgba(0, 0, 0, 0.7);
+      width: 188px;
+      text-align: center;
+      color: #fefefe;
+      padding: 0.375rem 0;
+      position: absolute;
+      bottom: 72px; }
+      .amps-main .amp-lg .amp-model-tag p {
+        margin-bottom: 0;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.1875rem;
+        text-transform: uppercase; }
     .amps-main .amp-lg .overlay {
       height: 100%;
       width: 100%;
@@ -6925,8 +6957,8 @@ body#tinymce {
       visibility: hidden;
       opacity: 0;
       background: rgba(0, 0, 0, 0.7);
-      -webkit-transition: all ease 0.3s;
-      transition: all ease 0.3s; }
+      -webkit-transition: all ease 0.8s;
+      transition: all ease 0.8s; }
       .amps-main .amp-lg .overlay img {
         height: 120px;
         width: 89px;
@@ -6936,6 +6968,67 @@ body#tinymce {
     .amps-main .amp-lg .image-container:hover .overlay {
       visibility: visible;
       opacity: 1; }
+
+.amps-single .amp-image {
+  position: relative;
+  margin-top: 80px; }
+  .amps-single .amp-image .amp-tag {
+    background: rgba(0, 0, 0, 0.7);
+    width: 188px;
+    text-align: center;
+    color: #fefefe;
+    padding: 0.375rem 0;
+    position: absolute;
+    top: 72px; }
+    .amps-single .amp-image .amp-tag h1 {
+      margin-bottom: 0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.1875rem;
+      text-transform: uppercase; }
+
+.amps-single .amp-overview {
+  margin: 25px 0 80px 0;
+  padding: 72px 30px;
+  background: #cecece; }
+  .amps-single .amp-overview h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.625rem;
+    text-transform: uppercase; }
+  .amps-single .amp-overview p {
+    font-size: 1.125rem;
+    text-align: justify; }
+
+.about-page .about-content {
+  margin: 100px 0;
+  padding: 72px 30px;
+  background: #cecece; }
+  .about-page .about-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.625rem;
+    text-transform: uppercase; }
+  .about-page .about-content p {
+    font-size: 1.125rem;
+    text-align: justify; }
+
+.contact-page {
+  padding: 80px 0; }
+  .contact-page .gform_heading h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem; }
+  .contact-page .gform_body label {
+    display: none; }
+  .contact-page .gform_body ul {
+    list-style: none;
+    margin: 0; }
+  .contact-page .gform_footer input[type=submit] {
+    background: #0a0a0a;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase; }
 
 #page {
   max-width: 75rem;

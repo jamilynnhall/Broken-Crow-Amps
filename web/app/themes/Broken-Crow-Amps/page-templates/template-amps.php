@@ -26,6 +26,9 @@ get_header(); ?>
 								<?php if( !empty($image) ): ?>
 									<div class="image-container">
 										<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+										<div class="amp-model-tag">
+											<p><?php the_sub_field('amp_model'); ?></p>
+										</div>
 										<div class="overlay">
 											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/amp-details-rollover.png" alt="Amps Hover State" />
 										</div>

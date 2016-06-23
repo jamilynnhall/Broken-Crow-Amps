@@ -2,29 +2,42 @@
 
 	figure{
 		margin:0;
+		position: relative;
 
 		img{
 		}
 
-		figcaption{
+		h1{
+			font-family: $mont;
+			text-align: center;
+			text-transform: uppercase;
+			line-height: rem-calc(75);
+			font-size:rem-calc(42);
+			margin:0;
+			display: inline-block;
 
-			h1{
-				font-family: $mont;
-				text-align: center;
-				text-transform: uppercase;
-				line-height: rem-calc(85);
-				margin:0;
+			a{
+				background: url(../images/tone-steel-bg.png) no-repeat center center;
+				background-size: contain;
 				position: absolute;
-				top:530px;
+				top:440px;
 				left:120px;
 				right:0;
+				margin:0 auto;
+				padding:rem-calc(5 35);
+				color:$black;
+				transition: $global-transition;
+				display: inline-block;
+				color:$white;
 
 				span{
 					font-family: $mont;
 					font-weight: bold;
+					color:$black;
 				}
 			}
 		}
+
 	}
 }
 
@@ -43,72 +56,14 @@
 		font-size: rem-calc(20);
 		a{
 			color:$dark-gray;
+			transition: $global-transition;
+			&:hover{
+				color:$red;
+			}
 		}
 	}
 	.instagram-feed{
 		display: block;
 		margin:0 auto;
-	}
-}
-.newsletter-signup{
-	background: url(../images/amptexture.jpg) no-repeat center center;
-	background-size: cover;
-
-	.newsletter-form{
-		padding:37px 0 30px 0;
-
-		.gform_heading, .gform_body, .gform_footer{
-			display: inline-block;
-		}
-		.gform_heading{
-			h3{
-				color:$white;
-				font-family: $mont;
-				font-size:rem-calc(16);
-				font-weight: bold;
-				text-transform: uppercase;
-				margin:0;
-			}
-		}
-		.gform_body{
-
-			input[type=email]{
-				border-top-left-radius: 5px;
-				border-bottom-left-radius: 5px;
-				width:290px;
-				margin:0;
-			}
-			ul{
-				list-style: none;
-				margin-bottom: 0;
-			}
-		}
-		.gform_footer{
-
-			input[type=submit]{
-				background: $black;
-				font-family: $mont;
-				font-weight: bold;
-				text-transform: uppercase;
-				border-top-right-radius: 5px;
-				border-bottom-right-radius: 5px;
-				margin-top:13px;
-				margin-left:rem-calc(-4.065);
-				padding:rem-calc(11.5 12);
-
-				&:hover{
-					background: $dark-gray;
-				}
-			}
-		}
-	}
-
-	.newsletter-description{
-		padding:55px 0;
-		h3{
-			color:$white;
-			font-size: rem-calc(18);
-			margin:0;
-		}
 	}
 }

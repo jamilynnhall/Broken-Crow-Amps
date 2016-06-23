@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5aef21098eafc2c941394c8c2bb927cc",
-    "content-hash": "6b62a20e582cef2985cd4dfc93148cff",
+    "hash": "8271832b22607d278c36de95fe1ac0c8",
+    "content-hash": "79a30317c0a2c2be74dde4503ddce4bc",
     "packages": [
         {
             "name": "composer/installers",
@@ -420,6 +420,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-db-booster/"
+        },
+        {
+            "name": "wpackagist-plugin/youtube-channel-gallery",
+            "version": "2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/youtube-channel-gallery/",
+                "reference": "tags/2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/youtube-channel-gallery.2.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/youtube-channel-gallery/"
         }
     ],
     "packages-dev": [

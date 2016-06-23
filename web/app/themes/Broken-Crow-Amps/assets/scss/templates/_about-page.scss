@@ -1,0 +1,17 @@
+.about-page{
+	.about-content{
+		margin: 100px 0;
+		padding: 72px 30px;
+		background: $putty;
+
+		h1{
+			font-family: $mont;
+			font-size:rem-calc(26);
+			text-transform: uppercase;
+		}
+		p{
+			font-size: rem-calc(18);
+			text-align: justify;
+		}
+	}
+}

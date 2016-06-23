@@ -11,7 +11,7 @@
 
 	.amp-lg{
 		padding-left:6px;
-		
+
 		.image-container{
 			position: relative;
 			display: inline-block;
@@ -23,6 +23,23 @@
 			width: 588px;
 		}
 
+		.amp-model-tag{
+			background: $oblack;
+			width:188px;
+			text-align: center;
+			color:$white;
+			padding:rem-calc(6 0);
+			position: absolute;
+			bottom: 72px;
+
+			p{
+				margin-bottom: 0;
+				font-family: $mont;
+				font-size:rem-calc(19);
+				text-transform: uppercase;
+			}
+		}
+
 		.overlay{
 			height: 100%;
 			width: 100%;
@@ -32,7 +49,7 @@
 			visibility: hidden;
 		    opacity: 0;
 		    background:$oblack;
-		    transition: all ease 0.3s;
+		    transition: all ease 0.8s;
 
 		    img{
 		    	height: 120px;
@@ -46,6 +63,47 @@
 
 			visibility: visible;
   			opacity: 1;
+		}
+	}
+}
+
+.amps-single{
+
+	.amp-image{
+		position: relative;
+		margin-top:80px;
+
+		.amp-tag{
+			background: $oblack;
+			width:188px;
+			text-align: center;
+			color:$white;
+			padding:rem-calc(6 0);
+			position: absolute;
+			top: 72px;
+
+			h1{
+				margin-bottom: 0;
+				font-family: $mont;
+				font-size:rem-calc(19);
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.amp-overview{
+		margin: 25px 0 80px 0;
+		padding: 72px 30px;
+		background: $putty;
+
+		h2{
+			font-family: $mont;
+			font-size:rem-calc(26);
+			text-transform: uppercase;
+		}
+		p{
+			font-size: rem-calc(18);
+			text-align: justify;
 		}
 	}
 }
