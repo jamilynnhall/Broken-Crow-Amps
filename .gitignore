@@ -1,6 +1,7 @@
 # Application
 web/app/plugins/*
 !web/app/plugins/.gitkeep
+!web/app/plugins/advanced-custom-fields-pro
 !web/app/plugins/gravityforms
 !web/app/plugins/gravityformsmailchimp
 !web/app/plugins/wp-migrate-db-pro
