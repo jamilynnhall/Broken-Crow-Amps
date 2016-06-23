@@ -43,7 +43,7 @@
     "wpackagist-plugin/wp-db-backup": "2.3.1",
     "wpackagist-plugin/wp-db-booster": "1.0.0",
     "wpackagist-plugin/wordfence": "6.1.10",
-    "wpackagist-plugin/youtube-channel-gallery": "2.4"
+    "wpackagist-plugin/youtube-channel": "3.0.9"
 
   },
   "require-dev": {
