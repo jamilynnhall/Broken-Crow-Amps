@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "624f885abe1aaf18084624c1f5cf12a1",
-    "content-hash": "971c641439da861bc19429badf79c3ad",
+    "hash": "a76aed46fc3ddf8427f1f351d658e15b",
+    "content-hash": "408c493050090a6a01ae5c9b293f8135",
     "packages": [
         {
             "name": "composer/installers",
@@ -343,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/instagram-feed",
-            "version": "1.4.6",
+            "version": "1.4.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-feed/",
-                "reference": "tags/1.4.6"
+                "reference": "tags/1.4.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.6.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -360,6 +360,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/postman-smtp",
+            "version": "1.7.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/postman-smtp/",
+                "reference": "tags/1.7.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/postman-smtp.1.7.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/postman-smtp/"
         },
         {
             "name": "wpackagist-plugin/wordfence",
