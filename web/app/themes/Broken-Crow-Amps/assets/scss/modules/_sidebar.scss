@@ -1,4 +1,15 @@
 .sidebar {
+	background: $putty;
+	padding:40px !important;
+
+	h6{
+		font-family: $mont;
+		text-transform: uppercase;
+	}
+	a{
+		color:$red;
+	}
+
   @include breakpoint(small) {
     @include grid-column(12);
   }

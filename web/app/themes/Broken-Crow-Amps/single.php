@@ -8,7 +8,7 @@
 
 get_header(); ?>
 
-<div id="single-post" role="main">
+<div class="news" id="single-post" role="main">
 
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -22,21 +22,13 @@ get_header(); ?>
 
 		<?php
 			if ( has_post_thumbnail() ) :
-				the_post_thumbnail();
+				the_post_thumbnail('post-thumbnail', array( 'class'	=> "news-featured-image"));
 			endif;
 		?>
 
 		<?php the_content(); ?>
-		<?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
+
 		</div>
-		<footer>
-			<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
-			<p><?php the_tags(); ?></p>
-		</footer>
-		<?php the_post_navigation(); ?>
-		<?php do_action( 'foundationpress_post_before_comments' ); ?>
-		<?php comments_template(); ?>
-		<?php do_action( 'foundationpress_post_after_comments' ); ?>
 	</article>
 <?php endwhile;?>
 

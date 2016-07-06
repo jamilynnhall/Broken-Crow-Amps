@@ -1,0 +1,38 @@
+#single-post {
+  @include grid-row();
+  margin-top: 80px;
+  margin-bottom:80px;
+
+  h1{
+    font-family: $mont;
+    font-size:rem-calc(38);
+    line-height: rem-calc(40);
+  }
+
+  .author{
+    a{
+      color:$red;
+      font-style: italic;
+    }
+  }
+
+  .main-content {
+    padding-right: 40px !important;
+
+    .news-featured-image{
+      margin-bottom:40px;
+    }
+
+    @include breakpoint(small) {
+      @include grid-column(12);
+    }
+
+    @include breakpoint(medium) {
+      @include grid-column(8);
+        p{
+          text-align: justify;
+        }
+    }
+  }
+
+}
