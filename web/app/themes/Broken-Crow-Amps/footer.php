@@ -15,10 +15,10 @@
 		<div id="footer-container">
 		<section class="newsletter-signup">
 				<div class="row">
-					<div class="newsletter-form small-12 large-6 columns">
+					<div class="newsletter-form small-12 large-6 large-offset-2 columns">
 						<?php echo do_shortcode('[gravityform id="1" title="true" description="false" ajax="true"]'); ?>
 					</div>
-					<div class="newsletter-description small-12 large-6 columns">
+					<div class="newsletter-description small-12 large-4 columns">
 						<h3><?php the_field('newsletter_description', 'option'); ?></h3>
 					</div>
 				</div>
