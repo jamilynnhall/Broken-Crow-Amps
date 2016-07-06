@@ -75,25 +75,36 @@
 
 		.amp-tag{
 			background: $oblack;
-			width:188px;
+			width:200px;
 			text-align: center;
 			color:$white;
-			padding:rem-calc(6 0);
+			padding:rem-calc(8 0);
 			position: absolute;
 			top: 72px;
 
 			h1{
 				margin-bottom: 0;
 				font-family: $mont;
-				font-size:rem-calc(19);
+				font-size:rem-calc(22);
 				text-transform: uppercase;
+				line-height: rem-calc(22);
+
+				span{
+					display: block;
+					color:$putty;
+					font-size:rem-calc(18);
+
+					small{
+						color:$white;
+					}
+				}
 			}
 		}
 	}
 
-	.amp-overview{
+	.amp-overview, .specs{
 		margin: 25px 0 80px 0;
-		padding: 72px 30px;
+		padding: 50px 30px;
 		background: $putty;
 
 		h2{
@@ -102,8 +113,21 @@
 			text-transform: uppercase;
 		}
 		p{
-			font-size: rem-calc(18);
+			font-size: rem-calc(15);
 			text-align: justify;
 		}
+		ul{
+			list-style: none;
+			margin:0;
+		}
+		li{
+			font-size:rem-calc(15);
+		}
+	}
+	.amp-details-left{
+		padding-left:0;
+	}
+	.amp-details-right{
+		padding-right: 0;
 	}
 }
