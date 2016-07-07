@@ -25,7 +25,7 @@
 			</section>
 			<footer id="footer">
 				<?php do_action( 'foundationpress_before_footer' ); ?>
-					<p>&copy; 2016 Broken Crow Amplification | <a class="footer-email" href="mailto:<?php the_field('footer_email_address', 'option'); ?>"><?php the_field('footer_email_address', 'option'); ?></a> | <?php the_field('footer_phone_number', 'option'); ?>  <a class="footer-fb" href="<?php the_field('footer_fb'); ?>"></a> <a class="footer-tw" href="<?php the_field('footer_tw'); ?>"></a>
+					<p>&copy; 2016 Broken Crow Amplification | <a class="footer-email" href="mailto:<?php the_field('footer_email_address', 'option'); ?>"><?php the_field('footer_email_address', 'option'); ?></a> | <?php the_field('footer_phone_number', 'option'); ?>  <a class="footer-fb" href="<?php the_field('footer_fb', 'option'); ?>"></a> <a class="footer-tw" href="<?php the_field('footer_tw', 'option'); ?>"></a>
 					</p>
 
 				<?php do_action( 'foundationpress_after_footer' ); ?>
