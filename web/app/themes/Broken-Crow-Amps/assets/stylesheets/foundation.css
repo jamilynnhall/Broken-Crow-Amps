@@ -6752,11 +6752,36 @@ a::after {
     #footer-container #footer p {
       margin-bottom: 0;
       color: #fefefe;
-      text-align: center; }
+      text-align: center;
+      position: relative; }
     #footer-container #footer ul {
       list-style-type: none;
       margin: 0;
       padding: 0; }
+    #footer-container #footer .gc-cs-link {
+      color: #fefefe;
+      text-decoration: none; }
+    #footer-container #footer .footer-email {
+      color: #c73925;
+      -webkit-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
+      #footer-container #footer .footer-email:hover {
+        color: #fefefe; }
+    #footer-container #footer .footer-tw, #footer-container #footer .footer-fb {
+      height: 28px;
+      width: 28px;
+      display: inline-block;
+      -webkit-background-size: cover !important;
+              background-size: cover !important;
+      position: absolute; }
+      #footer-container #footer .footer-tw:hover, #footer-container #footer .footer-fb:hover {
+        background-position: 0 -28px; }
+    #footer-container #footer .footer-tw {
+      background: url(../images/twitter.png) no-repeat;
+      margin-left: 76px; }
+    #footer-container #footer .footer-fb {
+      background: url(../images/facebook.png) no-repeat;
+      margin-left: 40px; }
 
 .newsletter-signup {
   background: url(../images/amptexture.jpg) no-repeat center center;

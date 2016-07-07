@@ -39,12 +39,10 @@
     "johnpbloch/wordpress": "4.5.3",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/instagram-feed": "1.4.6.1",
-    "wpackagist-plugin/wp-db-backup": "2.3.1",
-    "wpackagist-plugin/wp-db-booster": "1.0.0",
+    "wpackagist-plugin/instagram-feed": "1.4.6.2",
     "wpackagist-plugin/wordfence": "6.1.10",
-    "wpackagist-plugin/youtube-channel": "3.0.9",
-    "wpackagist-plugin/postman-smtp": "1.7.2"
+    "wpackagist-plugin/postman-smtp": "1.7.2",
+    "wpackagist-plugin/updraftplus": "1.12.15"
 
   },
   "require-dev": {

@@ -12,12 +12,43 @@
 			margin-bottom: 0;
 			color:$white;
 			text-align: center;
+			position: relative;
 		}
 
 		ul {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
+		}
+		.gc-cs-link{
+			color:$white;
+			text-decoration: none;
+		}
+		.footer-email{
+			color:$red;
+			transition: all ease 0.3s;
+			&:hover{
+				color:$white;
+			}
+		}
+		.footer-tw, .footer-fb{
+			height:28px;
+			width:28px;
+			display: inline-block;
+			background-size: cover !important;
+			position: absolute;
+
+			&:hover{
+				background-position: 0 -28px;
+			}
+		}
+		.footer-tw{
+			background: url(../images/twitter.png) no-repeat;
+			margin-left:76px;
+		}
+		.footer-fb{
+			background: url(../images/facebook.png) no-repeat;
+			margin-left:40px;
 		}
 	}
 }

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a76aed46fc3ddf8427f1f351d658e15b",
-    "content-hash": "408c493050090a6a01ae5c9b293f8135",
+    "hash": "2547bfc54316d0c199adef606506939d",
+    "content-hash": "6a3f810b030478b0205266b605dedf0b",
     "packages": [
         {
             "name": "composer/installers",
@@ -343,15 +343,15 @@
         },
         {
             "name": "wpackagist-plugin/instagram-feed",
-            "version": "1.4.6.1",
+            "version": "1.4.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-feed/",
-                "reference": "tags/1.4.6.1"
+                "reference": "tags/1.4.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.4.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -382,6 +382,26 @@
             "homepage": "https://wordpress.org/plugins/postman-smtp/"
         },
         {
+            "name": "wpackagist-plugin/updraftplus",
+            "version": "1.12.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/updraftplus/",
+                "reference": "tags/1.12.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/updraftplus.1.12.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/updraftplus/"
+        },
+        {
             "name": "wpackagist-plugin/wordfence",
             "version": "6.1.10",
             "source": {
@@ -400,66 +420,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-db-backup",
-            "version": "2.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-db-backup/",
-                "reference": "tags/2.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-db-backup.2.3.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-db-backup/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-db-booster",
-            "version": "1.0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-db-booster/",
-                "reference": "tags/1.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-db-booster.1.0.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-db-booster/"
-        },
-        {
-            "name": "wpackagist-plugin/youtube-channel",
-            "version": "3.0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/youtube-channel/",
-                "reference": "tags/3.0.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/youtube-channel.3.0.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/youtube-channel/"
         }
     ],
     "packages-dev": [
