@@ -6788,7 +6788,8 @@ a::after {
   -webkit-background-size: cover;
           background-size: cover; }
   .newsletter-signup .newsletter-form {
-    padding: 37px 0 30px 0; }
+    padding: 37px 0 30px 0;
+    position: relative; }
     .newsletter-signup .newsletter-form .gform_heading, .newsletter-signup .newsletter-form .gform_body, .newsletter-signup .newsletter-form .gform_footer {
       display: inline-block; }
     .newsletter-signup .newsletter-form .gform_heading h3 {
@@ -6806,6 +6807,10 @@ a::after {
     .newsletter-signup .newsletter-form .gform_body ul {
       list-style: none;
       margin-bottom: 0; }
+    .newsletter-signup .newsletter-form .gform_body .validation_message {
+      color: #fefefe;
+      position: absolute;
+      margin-top: 3px; }
     .newsletter-signup .newsletter-form .gform_footer input[type=submit] {
       background: #0a0a0a;
       font-family: "Montserrat", sans-serif;
@@ -6818,6 +6823,11 @@ a::after {
       padding: 0.71875rem 0.75rem; }
       .newsletter-signup .newsletter-form .gform_footer input[type=submit]:hover {
         background: #8a8a8a; }
+    .newsletter-signup .newsletter-form .validation_error {
+      display: none; }
+    .newsletter-signup .newsletter-form .gform_confirmation_message {
+      color: #fefefe;
+      margin-top: 20px; }
   .newsletter-signup .newsletter-description {
     padding: 55px 0; }
     .newsletter-signup .newsletter-description h3 {
