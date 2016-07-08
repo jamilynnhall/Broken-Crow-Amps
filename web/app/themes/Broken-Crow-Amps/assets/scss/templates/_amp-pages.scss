@@ -145,13 +145,13 @@
 	}
 	.amp-details-left{
 		padding-left:0;
-		@include breakpoint(medium-only){
+		@include breakpoint(medium only){
 			padding:0;
 		}
 	}
 	.amp-details-right{
 		padding-right: 0;
-		@include breakpoint(medium-only){
+		@include breakpoint(medium only){
 			padding:0;
 			margin-bottom: 30px;
 		}
