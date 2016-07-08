@@ -27,11 +27,13 @@
 
 		.image-container{
 			position: relative;
-			width: 588px;
 			margin:0 auto;
 
 			@include breakpoint(large){
 				display: inline-block;
+			}
+			@include breakpoint(medium){
+				width: 588px;
 			}
 
 		}
