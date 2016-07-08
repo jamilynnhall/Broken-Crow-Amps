@@ -53,7 +53,7 @@ get_header(); ?>
 
 							endif; ?>
 						</ul>
-						<h2><?php the_field('cab_specs_title'); ?></h2>
+						<h2 class="cab-specs"><?php the_field('cab_specs_title'); ?></h2>
 						<ul>
 							<?php if( have_rows('cab_specifications') ):
 

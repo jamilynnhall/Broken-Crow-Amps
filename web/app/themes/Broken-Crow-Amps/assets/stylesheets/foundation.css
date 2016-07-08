@@ -7045,6 +7045,8 @@ body#tinymce {
     margin: 0; }
   .amps-single .amp-overview li, .amps-single .specs li {
     font-size: 0.9375rem; }
+  .amps-single .amp-overview .cab-specs, .amps-single .specs .cab-specs {
+    margin-top: 40px; }
 
 .amps-single .amp-details-left {
   padding-left: 0; }
