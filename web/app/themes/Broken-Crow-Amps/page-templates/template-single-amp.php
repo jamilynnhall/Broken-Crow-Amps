@@ -4,7 +4,7 @@ Template Name: Single Amps Page
 */
 get_header(); ?>
 
-		<div class="amps-single row" data-equalizer data-equalize-on="large">
+		<div class="amps-single row">
 			<div class="large-10 large-centered columns">
 
 				<?php $image = get_field('featured_image');
@@ -24,7 +24,7 @@ get_header(); ?>
 				<?php endif; ?>
 
 				<div class="amp-details-left small-12 large-6 columns">
-					<div class="amp-overview" data-equalizer-watch>
+					<div class="amp-overview">
 						<?php if ( have_posts() ): ?>
 							<?php while( have_posts() ): the_post(); ?>
 
@@ -35,12 +35,29 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="amp-details-right small-12 large-6 columns">
-					<div class="specs" data-equalizer-watch>
-						<h2>Specifications</h2>
+					<div class="specs">
+						<h2><?php the_field('amp_specs_title'); ?></h2>
 						<ul>
 							<?php if( have_rows('specifications') ):
 
 								    while ( have_rows('specifications') ) : the_row(); ?>
+
+								        <li>
+								        	<strong><?php the_sub_field('spec_type'); ?>: </strong>
+								        	<?php the_sub_field('specification'); ?>
+								        </li>
+
+								    <?php endwhile;
+
+								else :
+
+							endif; ?>
+						</ul>
+						<h2><?php the_field('cab_specs_title'); ?></h2>
+						<ul>
+							<?php if( have_rows('cab_specifications') ):
+
+								    while ( have_rows('cab_specifications') ) : the_row(); ?>
 
 								        <li>
 								        	<strong><?php the_sub_field('spec_type'); ?>: </strong>
