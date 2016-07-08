@@ -16,10 +16,7 @@ get_header(); ?>
 					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 					<div class="amp-tag">
-						<h1><?php the_title(); ?>
-							<span><small>MSRP:</small> <?php the_field('msrp'); ?></span>
-						</h1>
-
+						<h1><?php the_title(); ?></h1>
 					</div>
 
 				</div>
