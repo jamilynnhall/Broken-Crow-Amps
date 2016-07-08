@@ -12,7 +12,7 @@ get_header(); ?>
 	</div>
 
 	<div class="row">
-		<div class="large-10 large-centered columns">
+		<div class="featured-video large-10 large-centered columns">
 			<?php the_field('featured_video'); ?>
 		</div>
 
@@ -20,10 +20,10 @@ get_header(); ?>
 				<div class="other-vids-wrap clearfix">
 				    <?php while ( have_rows('other_videos') ) : the_row(); ?>
 
-				    	<div class="single-vid large-4 columns">
+				    	<div class="single-vid large-4 small-12 columns">
 							<?php the_sub_field('video_column'); ?>
 
-							<?php the_sub_field('video_title'); ?>
+							<h5><?php the_sub_field('video_title'); ?></h5>
 						</div>
 
 				    <?php endwhile; ?>

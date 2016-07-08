@@ -1,13 +1,23 @@
 .about-page{
 	.about-content{
-		margin: 100px 0;
-		padding: 72px 30px;
+		margin: 30px 10px;
+		padding: 40px 30px;
 		background: $putty;
+
+		@include breakpoint(large){
+			margin: 100px 0;
+			padding: 72px 30px;
+		}
 
 		h1{
 			font-family: $mont;
 			font-size:rem-calc(26);
 			text-transform: uppercase;
+
+			@include breakpoint(small only){
+				line-height: rem-calc(26);
+				margin-bottom:20px;
+			}
 		}
 		p{
 			font-size: rem-calc(18);

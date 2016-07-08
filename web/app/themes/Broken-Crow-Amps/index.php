@@ -16,12 +16,24 @@
 get_header(); ?>
 
 <div id="page" role="main">
-	<article class="main-content">
+	<article class="news-archive main-content">
 	<?php if ( have_posts() ) : ?>
 
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+
+			<header>
+				<?php if ( has_post_thumbnail() ) {
+					the_post_thumbnail();
+				}?>
+				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+				<?php foundationpress_entry_meta(); ?>
+			</header>
+
+			<?php the_excerpt(); ?>
+			<a class="read-more" href="<?php the_permalink(); ?>">Read More</a>
+
+			<hr>
 		<?php endwhile; ?>
 
 		<?php else : ?>

@@ -12,9 +12,12 @@ get_header(); ?>
 
 				<figure>
 
-					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+					<img data-interchange="
+						[<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mobile-hero.jpg, small],
+						[<?php echo get_stylesheet_directory_uri(); ?>/assets/images/home-hero.jpg, medium]
+					" alt="Broken Crow Boutique Amps">
 
-							<figcaption>
+							<figcaption class="show-for-medium">
 								<h1>
 									<a href="<?php echo esc_url( home_url( '/amps' ) ); ?>">
 										<?php the_field('home_tagline'); ?>
