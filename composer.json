@@ -39,10 +39,10 @@
     "johnpbloch/wordpress": "4.5.3",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/instagram-feed": "1.4.6.2",
-    "wpackagist-plugin/wordfence": "6.1.10",
+    "wpackagist-plugin/instagram-feed": "1.4.7",
+    "wpackagist-plugin/wordfence": "6.1.14",
     "wpackagist-plugin/postman-smtp": "1.7.2",
-    "wpackagist-plugin/updraftplus": "1.12.15"
+    "wpackagist-plugin/updraftplus": "1.12.17"
 
   },
   "require-dev": {
