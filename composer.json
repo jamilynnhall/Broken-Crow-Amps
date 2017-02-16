@@ -36,13 +36,13 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.5.3",
+    "johnpbloch/wordpress": "4.7.2",
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-plugin/instagram-feed": "1.4.7",
-    "wpackagist-plugin/wordfence": "6.1.14",
+    "wpackagist-plugin/instagram-feed": "1.4.8",
+    "wpackagist-plugin/wordfence": "6.3.1",
     "wpackagist-plugin/postman-smtp": "1.7.2",
-    "wpackagist-plugin/updraftplus": "1.12.17"
+    "wpackagist-plugin/updraftplus": "1.12.32"
 
   },
   "require-dev": {
